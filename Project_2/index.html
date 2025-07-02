@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StartUpX | Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">StartUpX</div>
+
+      <!-- Hamburger icon -->
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <!-- Navigation -->
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Welcome to StartUpX</h1>
+      <p>Your trusted partner for digital growth</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features">
+      <h2>Our Features</h2>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <i class="fas fa-truck fa-2x" style="color: #0ea5e9"></i>
+          <h3>Fast Delivery</h3>
+          <p>
+            Get your product or service delivered with lightning speed and
+            efficiency.
+          </p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-shield-alt fa-2x" style="color: #0ea5e9"></i>
+          <h3>Secure Platform</h3>
+          <p>
+            We ensure complete security of your data with top-notch
+            infrastructure.
+          </p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-headset fa-2x" style="color: #0ea5e9"></i>
+          <h3>24/7 Support</h3>
+          <p>
+            Our support team is available anytime to assist you with your
+            queries.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-cards">
+        <div class="testimonial-card">
+          <p>
+            "StartUpX helped my business grow 3x in 2 months. Their service is
+            top-notch!"
+          </p>
+          <h4>- Ramesh Singh</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            "Amazing support team and great results. Highly recommended to all!"
+          </p>
+          <h4>- Priya Verma</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            "Very professional and efficient. I loved working with their team."
+          </p>
+          <h4>- Anjali Mehta</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing">
+      <h2>Our Plans</h2>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h3>Free</h3>
+          <p class="price">$0<span>/mo</span></p>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Basic Features</li>
+            <li><i class="fas fa-check-circle"></i> Limited Support</li>
+            <li><i class="fas fa-times-circle"></i> No Customization</li>
+          </ul>
+          <a href="#" class="btn">Try Now</a>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Standard</h3>
+          <p class="price">$29<span>/mo</span></p>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> All Basic Features</li>
+            <li><i class="fas fa-check-circle"></i> Priority Support</li>
+            <li><i class="fas fa-check-circle"></i> Customization</li>
+          </ul>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <p class="price">$59<span>/mo</span></p>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Everything in Standard</li>
+            <li><i class="fas fa-check-circle"></i> Dedicated Manager</li>
+            <li><i class="fas fa-check-circle"></i> 24/7 VIP Support</li>
+          </ul>
+          <a href="#" class="btn">Subscribe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <h2>Get in Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Script -->
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

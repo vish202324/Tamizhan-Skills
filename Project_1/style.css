@@ -11,6 +11,7 @@ body {
   color: #333;
   line-height: 1.6;
 }
+/* for keeping the navbar sticky on the top */
 header {
   position: sticky;
   top: 0;
