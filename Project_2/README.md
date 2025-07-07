@@ -1,25 +1,59 @@
-# 🚀 Responsive Landing Page for Startup - RISE Internship Project 2https://github.com/vish202324/Tamizhan-Skills/tree/main/Project_2
+# 🚀 Responsive Landing Page – RISE Internship Project 2
 
-This is a responsive landing page created as part of the RISE Internship Web Development track. The project simulates a startup's homepage with key sections designed to convert visitors into customers.
+This project is a modern, mobile-friendly **landing page for a startup**, built as part of the **RISE Internship Program**. It focuses on clean UI, responsiveness, branding, and layout structure used in real-world product websites.
 
-## 📌 Features
+## 🌟 Features
 
-- ✅ Hero Section with CTA
-- ✅ Feature Highlights with Font Awesome Icons
-- ✅ Testimonials Section
-- ✅ Pricing Plans
-- ✅ Contact Form
-- ✅ Fully Responsive Design
-- ✅ Hosted with GitHub Pages
+- 🏷️ Hero Section with CTA (Call to Action)
+- 📝 Features Section with Font Awesome icons
+- 💬 Testimonials Section
+- 📱 Mobile Responsive with Flexbox/Grid
+- 🧭 Sticky Navigation Bar
+- 🍔 Mobile Hamburger Menu (optional)
+- 📸 Product Images or Mockups
+- 📞 Contact/CTA Footer
 
+## 🖼 Live Demo
 
-## 💡 Tech Stack
+🔗 [View Landing Page](https://yourusername.github.io/Tamizhan-Skills/Project_2/)  
+_(Replace with your GitHub Pages link)_
+
+## 🧑‍💻 Tech Stack
 
 - HTML5
 - CSS3
-- Flexbox
-- Media Queries
+- Responsive Design
 - Font Awesome
+- Google Fonts
+- Optional: JavaScript (hamburger menu toggle)
 
 ## 📁 Folder Structure
 
+Project_2/
+├── index.html
+├── style.css
+├── script.js (if hamburger used)
+
+## 📸 Screenshot
+
+![Landing Page Preview](images/landing-preview.png)  
+_Add your screenshot inside `images/` folder_
+
+## 📲 Responsive Design
+
+| Device     | Supported |
+| ---------- | --------- |
+| 💻 Desktop | ✅        |
+| 📱 Mobile  | ✅        |
+| 📟 Tablet  | ✅        |
+
+## ✍️ Author
+
+**Vivek Sharma**  
+📧 meetviveksharma198@gmail.com  
+🔗 [GitHub](https://github.com/vish202324)
+
+## 📜 License
+
+Created under the [Tamizhan Skills – RISE Internship Program](https://tamizhanskills.in/).  
+For educational and portfolio purposes only.
