@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Professional Resume Builder</h1>
+      <form id="resume-form">
+        <div class="personal-grid">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="text" id="email" placeholder="Email" required />
+          <input type="text" id="phone" placeholder="Phone" required />
+          <input type="text" id="linkedin" placeholder="LinkedIn Profile URL" />
+          <input type="text" id="github" placeholder="GitHub Profile URL" />
+          <input
+            type="text"
+            id="location"
+            placeholder="Location (City, State)"
+          />
+        </div>
+
+        <h3>Career Objective</h3>
+        <textarea
+          id="summary"
+          placeholder="Write a brief career objective..."
+        ></textarea>
+
+        <h3>Education</h3>
+        <div id="education-section">
+          <div class="edu-group">
+            <input type="text" placeholder="Degree" class="degree" />
+            <input type="text" placeholder="Institute" class="institute" />
+            <input type="text" placeholder="Year" class="year" />
+            <input type="text" placeholder="CGPA / %" class="score" />
+          </div>
+        </div>
+        <button type="button" onclick="addEducation()">+ Add Education</button>
+
+        <h3>Experience</h3>
+        <div id="experience-section">
+          <div class="exp-group">
+            <input type="text" placeholder="Job Title" class="role" />
+            <input type="text" placeholder="Company" class="company" />
+            <input type="text" placeholder="Duration" class="duration" />
+            <textarea placeholder="Responsibilities" class="desc"></textarea>
+          </div>
+        </div>
+        <button type="button" onclick="addExperience()">
+          + Add Experience
+        </button>
+
+        <h3>Skills</h3>
+        <input
+          type="text"
+          id="skills"
+          placeholder="Comma-separated (e.g. Java, HTML, SQL)"
+        />
+
+        <h3>Projects</h3>
+        <div id="projects-section">
+          <div class="project-group">
+            <input
+              type="text"
+              placeholder="Project Title"
+              class="project-title"
+            />
+            <textarea
+              placeholder="Project Description"
+              class="project-desc"
+            ></textarea>
+            <input
+              type="text"
+              placeholder="Project Link (optional)"
+              class="project-link"
+            />
+          </div>
+        </div>
+        <button type="button" onclick="addProject()">+ Add Project</button>
+
+        <h3>Certifications</h3>
+        <div id="cert-section">
+          <div class="cert-group">
+            <input
+              type="text"
+              placeholder="Certificate Name"
+              class="cert-name"
+            />
+            <input type="text" placeholder="Issuer" class="cert-issuer" />
+            <input type="text" placeholder="Year" class="cert-year" />
+          </div>
+        </div>
+        <button type="button" onclick="addCert()">+ Add Certificate</button>
+
+        <button type="button" onclick="generatePDF()">Download PDF</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
