@@ -44,8 +44,7 @@ Project_4/
 
 **Vivek Sharma**  
 📍 Sirsaganj, Uttar Pradesh  
-📧 meetviveksharma198@gmail.com  
-📱 +91-9045197350
+📧 meetviveksharma198@gmail.com
 
 ## 📜 License
 

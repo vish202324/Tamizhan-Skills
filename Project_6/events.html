@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events | Tech Club</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2>Upcoming Events</h2>
+        <!-- 3 Bootstrap Cards -->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Hackathon 2025</h5>
+                <p class="card-text">
+                  An intense 24-hour coding sprint with cash prizes and
+                  internships.
+                </p>
+                <p class="text-muted">📅 12 March 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Web Dev Bootcamp</h5>
+                <p class="card-text">
+                  A 3-day bootcamp to master HTML, CSS, Bootstrap, and Git.
+                </p>
+                <p class="text-muted">📅 25 April 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">AI Awareness Seminar</h5>
+                <p class="card-text">
+                  Learn how AI is changing the tech industry and future of jobs.
+                </p>
+                <p class="text-muted">📅 18 May 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-muted">
+          Stay tuned for upcoming tech events and workshops.
+        </p>
+      </div>
+    </section>
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("navbar.html")
+        .then((res) => res.text())
+        .then(
+          (data) =>
+            (document.getElementById("nav-placeholder").innerHTML = data)
+        );
+      fetch("footer.html")
+        .then((res) => res.text())
+        .then(
+          (data) =>
+            (document.getElementById("footer-placeholder").innerHTML = data)
+        );
+    </script>
+  </body>
+</html>
