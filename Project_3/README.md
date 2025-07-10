@@ -1,4 +1,4 @@
-# 🧾 Resume Builder Pro – RISE Internship Project 3
+# 🧾 Resume Builder – RISE Internship Project 3
 
 This is a professional-level Resume Builder web app built as part of the RISE Internship program. It allows users to input detailed career information and export a fully formatted resume in PDF format with tables and proper layout.
 
@@ -27,3 +27,12 @@ This is a professional-level Resume Builder web app built as part of the RISE In
 - Google Fonts (Poppins)
 
 ## 📁 Folder Structure
+
+**Vivek Sharma**  
+📧 meetviveksharma198@gmail.com  
+🔗 [GitHub](https://github.com/vish202324)
+
+## 📜 License
+
+Created under the [Tamizhan Skills – RISE Internship Program](https://tamizhanskills.in/).  
+For educational and portfolio purposes only.

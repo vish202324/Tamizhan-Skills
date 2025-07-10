@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/your-kit-code.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Replace with actual kit or use CDN -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎓 Student Management Dashboard</h1>
+
+      <!-- Form to Add or Edit Student -->
+      <form id="student-form">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Student Name" required />
+          <input
+            type="text"
+            id="regNo"
+            placeholder="Registration Number"
+            required
+          />
+          <input type="text" id="dept" placeholder="Department" required />
+          <input
+            type="number"
+            id="year"
+            placeholder="Year"
+            required
+            min="1"
+            max="4"
+          />
+          <input type="number" id="marks" placeholder="Marks" required />
+        </div>
+        <button type="submit">Save Student</button>
+      </form>
+
+      <!-- Filter/Search -->
+      <input
+        type="text"
+        id="search"
+        placeholder="Search by Name or Reg No..."
+      />
+
+      <!-- Student List Table -->
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Reg No</th>
+            <th>Dept</th>
+            <th>Year</th>
+            <th>Marks</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="student-list">
+          <!-- Dynamic rows go here -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

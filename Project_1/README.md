@@ -24,8 +24,8 @@ Project_1/
 ├── index.html
 ├── style.css
 ├── script.js (optional if used)
-├── images/
-│ └── profile.jpg
+├── assets/
+│ └── Screenshot.png
 
 ## 💻 Tech Stack
 
@@ -44,7 +44,7 @@ Project_1/
 
 ## 📸 Screenshot
 
-![Portfolio Screenshot](images/portfolio-preview.png)  
+![Portfolio Screenshot](Screenshot.png)  
 _Add your own screenshot in this location_
 
 ## ✍️ Author

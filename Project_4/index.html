@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📝 To-Do List</h1>
+
+      <div class="input-section">
+        <input type="text" id="task-input" placeholder="Enter a new task..." />
+        <button onclick="addTask()"><i class="fas fa-plus"></i></button>
+      </div>
+
+      <div class="filter-section">
+        <button onclick="filterTasks('all')">All</button>
+        <button onclick="filterTasks('pending')">Pending</button>
+        <button onclick="filterTasks('completed')">Completed</button>
+      </div>
+
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
