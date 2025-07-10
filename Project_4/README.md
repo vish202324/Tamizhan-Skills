@@ -17,7 +17,11 @@ A responsive and clean productivity app that helps users manage tasks effectivel
 
 ## 📸 Preview
 
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](assets/Screenshot.png)
+
+## 🔗 Live Demo
+
+[Click to View](https://vish202324.github.io/Tamizhan-Skills/Project_4/)
 
 ## 🛠 Tech Stack
 
@@ -34,8 +38,7 @@ Project_4/
 ├── style.css
 ├── script.js
 ├── assets/
-│ └── screenshot.png
-
+│ └── Screenshot.png
 
 ## 🙋‍♂️ Author
 

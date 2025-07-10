@@ -4,25 +4,29 @@ A fully functional, responsive web-based dashboard to manage student records —
 
 ## 🚀 Features
 
-- 🆕 Add Student Record  
-- 📝 Edit/Update Student Info  
-- 🗑 Delete Record with Confirmation  
-- 🔍 Live Search by Name or Reg. No  
-- 💾 LocalStorage Persistence  
-- 📋 Table View with Clean UI  
-- 📱 Responsive & User-Friendly Layout  
+- 🆕 Add Student Record
+- 📝 Edit/Update Student Info
+- 🗑 Delete Record with Confirmation
+- 🔍 Live Search by Name or Reg. No
+- 💾 LocalStorage Persistence
+- 📋 Table View with Clean UI
+- 📱 Responsive & User-Friendly Layout
 - 🎨 Custom Dashboard-Style Theme (Purple Accent)
 
 ## 🖼 Screenshot
 
-![Dashboard Screenshot](assets/screenshot.png)
-*Replace with your own image in `assets/` folder.*
+![Dashboard Screenshot](assets/Screenshot.png)
+_Replace with your own image in `assets/` folder._
+
+## 🔗 Live Demo
+
+[Click to View](https://vish202324.github.io/Tamizhan-Skills/Project_5/)
 
 ## 🛠 Tech Stack
 
-- HTML5  
-- CSS3 (Responsive Grid + Flexbox)  
-- JavaScript (ES6)  
+- HTML5
+- CSS3 (Responsive Grid + Flexbox)
+- JavaScript (ES6)
 - LocalStorage API
 
 ## 📁 Folder Structure
@@ -32,8 +36,7 @@ Project_5/
 ├── style.css
 ├── script.js
 ├── assets/
-│ └── screenshot.png
-
+│ └── Screenshot.png
 
 ## 🙋‍♂️ Author
 
