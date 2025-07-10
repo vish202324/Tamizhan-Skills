@@ -15,7 +15,7 @@ This project is a modern, mobile-friendly **landing page for a startup**, built 
 
 ## 🖼 Live Demo
 
-🔗 [View Landing Page](https://yourusername.github.io/Tamizhan-Skills/Project_2/)  
+🔗 [View Landing Page](https://vish202324.github.io/Tamizhan-Skills/Project_2/)  
 _(Replace with your GitHub Pages link)_
 
 ## 🧑‍💻 Tech Stack
@@ -32,12 +32,14 @@ _(Replace with your GitHub Pages link)_
 Project_2/
 ├── index.html
 ├── style.css
-├── script.js (if hamburger used)
+├── script.js (for hamburger used)
+├── assets/
+│ └── Screenshot.png
 
 ## 📸 Screenshot
 
-![Landing Page Preview](images/landing-preview.png)  
-_Add your screenshot inside `images/` folder_
+![Landing Page Preview](assets/screenshot.png)  
+_Add your screenshot inside `assets/` folder_
 
 ## 📲 Responsive Design
 

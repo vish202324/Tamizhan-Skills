@@ -17,7 +17,20 @@ This is a professional-level Resume Builder web app built as part of the RISE In
 
 ## 📸 Screenshot
 
-![Preview Screenshot](assets/screenshot.png) <!-- Add your own screenshot image -->
+![Preview Screenshot](assets/Screenshot.png)
+
+## 🔗 Live Demo
+
+[Click to View](https://vish202324.github.io/Tamizhan-Skills/Project_3/)
+
+## 📁 Folder Structure
+
+resume-builder/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│ └── Screenshot.png
 
 ## 💡 Tech Stack
 
@@ -25,8 +38,6 @@ This is a professional-level Resume Builder web app built as part of the RISE In
 - JavaScript (ES6)
 - jsPDF & jsPDF-AutoTable
 - Google Fonts (Poppins)
-
-## 📁 Folder Structure
 
 **Vivek Sharma**  
 📧 meetviveksharma198@gmail.com  
